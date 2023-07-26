@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Autowired
-    private IAccountService accountService;
+    private IAccountService accountService; 
 
     @Autowired
     private AuthExceptionHandler authExceptionHandler;
